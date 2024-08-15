@@ -205,10 +205,15 @@ body {
 }
 
 .section1-bar-inner {
-    width: 56.9%;
+    width: 0;
     background-color: #336913;
     border-radius: 30px;
     height: 15px;
+    transition: width 2s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.section1-bar-inner.animate {
+    width: 56.9%;
 }
 
 .section1-text3 {

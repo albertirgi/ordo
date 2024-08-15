@@ -7,7 +7,7 @@
                 <div class="section1-box-upper">
                     <div class="section1-box-upper-left">
                         <img class="section1-imgMangrove" src="{{ asset('images/mangrove.webp') }}" />
-                        <p class="section1-text2"><span class="section1-text1">5,690</span>/ 10,000 Pohon</p>
+                        <p class="section1-text2"><span class="section1-text1" id="tree-count">0</span>/ 10,000 Pohon</p>
                     </div>
                     <a href="" class="section1-box-upper-right-2">
                         <div class="section1-box-upper-right">
